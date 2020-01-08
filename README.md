@@ -4,11 +4,11 @@ The objective of this repository is to warehouse common rules and patterns for i
 ## Rules and Patterns
 
 The examples in the table below are Regular Expression patterns that match sensitive information that should not be committed to an open-source repository.
-Name|Value
---|--
-Social Security Numbers|`[0-9]{3}[\.\-][0-9]{2}[\.\-][0-9]{4}`
-IPv4 Addresses|`[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}`
-Credit Cards|`[0-9]{12}(?:[0-9]{3})?`
+|Name|Value|
+|--|--|
+|Social Security Numbers|`[0-9]{3}[\.\-][0-9]{2}[\.\-][0-9]{4}`|
+|IPv4 Addresses|`[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}`|
+|Credit Cards|`[0-9]{12}(?:[0-9]{3})?`|
 
 ## Repository contents
 
