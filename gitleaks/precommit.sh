@@ -1,7 +1,7 @@
 #!/bin/sh
 expected_version="$1"
 
-if [ "x${expected_version}" == "x" ]; then
+if [ "x${expected_version}" = "x" ]; then
     echo "expected version must be provided as a parameter"
     exit 1
 fi
@@ -21,11 +21,11 @@ fi
 
 # set bin_name based on what operating system this is
 os=$(uname -s | cut -d'_' -f 1)
-if [ "$os" == "Linux" ]; then
+if [ "$os" = "Linux" ]; then
     bin_name="gitleaks_linux"
-elif [ "$os" == "Darwin" ]; then
+elif [ "$os" = "Darwin" ]; then
     bin_name="gitleaks_darwin"
-elif [ "$os" == "CYGWIN" ] || [ "$os" == "MINGW64" ]; then
+elif [ "$os" = "CYGWIN" ] || [ "$os" = "MINGW64" ]; then
 	bin_name="gitleaks_windows.exe"
 fi
 
@@ -52,7 +52,7 @@ fi
 
 # The binary looks good, if we are on non-Windows we
 # should make it executable so we can run it
-if [ "$os" == "Linux" ] || [ "$os" == "Darwin" ]; then
+if [ "$os" = "Linux" ] || [ "$os" = "Darwin" ]; then
     chmod +x "$bin_path"
 fi
 
