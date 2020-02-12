@@ -9,6 +9,10 @@
 vendor/
 *.zip
 dist/
-release/
+release/g
 .DS_Store
 */.DS_Store
+
+## Jetbrains ##
+*.iml
+.idea
