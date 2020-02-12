@@ -9,7 +9,7 @@
 vendor/
 *.zip
 dist/
-release/g
+release/
 .DS_Store
 */.DS_Store
 

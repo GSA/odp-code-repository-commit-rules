@@ -29,6 +29,7 @@ elif [ "$os" = "CYGWIN" ] || [ "$os" = "MINGW64" ]; then
   bin_name="gitleaks_windows.exe"
 else
   echo "ERROR:$1: Failed to detect operating system."
+  exit 1
 fi
 
 bin_path="${hooks_path}/${bin_name}"
