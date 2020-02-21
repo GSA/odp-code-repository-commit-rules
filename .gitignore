@@ -12,3 +12,7 @@ dist/
 release/
 .DS_Store
 */.DS_Store
+
+## Jetbrains ##
+*.iml
+.idea
