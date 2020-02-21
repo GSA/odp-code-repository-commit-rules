@@ -57,4 +57,4 @@ fi
 
 # run the binary pointing it to the root of the
 # local repository
-exec "$bin_path" --repo-path="$repo_path"
+exec "$bin_path" --repo-path="$repo_path" --uncommitted
