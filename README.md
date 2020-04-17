@@ -3,7 +3,7 @@ The objective of this repository is to warehouse common rules and patterns for i
 
 ## Rules and Patterns
 
-The examples in the table below are Regular Expression patterns that match sensitive information that should not be committed to an open-source repository.
+The examples in the table below are Regular Expression patterns that match sensitive information that should not be committed to code repository.
 
 |Name|Value|
 |--|--|
